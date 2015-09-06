@@ -16,3 +16,6 @@ clean:
 
 edit:
 	$(EDITOR) $(SRC)
+
+ci:
+	./ci.sh
