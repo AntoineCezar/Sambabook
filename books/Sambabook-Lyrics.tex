@@ -1,0 +1,26 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{./common/songs}
+
+\title{Sambabook Lyrics}
+\author{Antoine Cezar}
+
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+
+    \newpage
+    \thispagestyle{empty}
+    \tableofcontents
+
+    \clearpage
+    \setcounter{page}{1}
+    \songsection{Lyrics}
+    \begin{songs}{}
+        \input{../songs/QuandoEuMeChamarSaudade-NelsonCavaquinho/lyrics}
+        \input{../songs/VidaDaMinhaVida-MoacyrLuz/lyrics.tex}
+        \input{../songs/VoltaPorCima-MartNalia/lyrics.tex}
+    \end{songs}
+\end{document}

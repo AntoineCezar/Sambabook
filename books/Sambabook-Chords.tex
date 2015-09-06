@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+
+\title{Sambabook Chords}
+\author{Antoine Cezar}
+
+\begin{document}
+    \pagenumbering{arabic}
+
+    \maketitle
+    \thispagestyle{empty}
+
+    \newpage
+    \thispagestyle{empty}
+    \tableofcontents
+
+    \clearpage
+    \setcounter{page}{1}
+
+    \includepdf[
+        pagecommand=\section{Quando Eu Me Chamar Saudade - Nelson Cavaquinho}
+    ] {../songs/QuandoEuMeChamarSaudade-NelsonCavaquinho-Dm.pdf}
+
+    \includepdf[
+        pagecommand=\section{Vida Da Minha Vida - Moacyr Luz}
+    ] {../songs/VidaDaMinhaVida-MoacyrLuz-Dm.pdf}
+
+    \includepdf[
+        pagecommand=\section{Volta Por Cima - Mart'Nalia}
+    ] {../songs/VoltaPorCima-MartNalia-Dm.pdf}
+
+\end{document}
