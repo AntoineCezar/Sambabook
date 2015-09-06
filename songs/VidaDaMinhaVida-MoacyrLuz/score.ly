@@ -8,7 +8,7 @@ chordNames = \chordmode {
   d2:sus4.7 d2:7 | g2:m7+ g2:m7    | bes2:m6  a2:7.5+ | d1:m             |
   d2:sus4.7 d2:7 | g2:m7  e2:m7.5- | d2:m     a2:7    |
 
-  bes4:7+ a4:m g4:m dis4 | d1:m
+  bes4:7+ a4:m g4:m dis4:7+ | d1:m
 }
 
 staves = {
