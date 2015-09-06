@@ -7,6 +7,7 @@
   title = \title
   composer = \composer
   subtitle = "Cm"
+  tagline = ##t
 }
 
 \score {

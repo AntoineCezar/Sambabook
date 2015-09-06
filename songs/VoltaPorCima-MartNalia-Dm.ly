@@ -9,6 +9,7 @@
   composer = \composer
   subtitle = "Dm"
   subsubtitle = \interpret
+  tagline = ##t
 }
 
 \score {
